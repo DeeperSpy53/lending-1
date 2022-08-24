@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="header-nav-ul">
+                <li><a data-goto=".block-info" class="stroke" href="#">Home</a></li>
+                <li><a data-goto=".info" href="#">About me</a></li>
+                <li><a data-goto=".skills" href="#">Skills</a></li>
+                <li><a data-goto=".portfolio" href="#">Portfolio</a></li>
+                <li><a data-goto=".footer" href="#">Contacts</a></li>
+            </ul>
+            <hr>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="block">
+                <div class="burgerMenu">
+                    <div class="burgerMenu-exit" onclick="burgerMenuExitClick()">
+                        <div class="burgerMenu-exit-line"></div>
+                        <div class="burgerMenu-exit-verticalLine"></div>
+                    </div>
+                    
+                    <ul class="burgerMenu-nav-ul">
+                        <li><a data-goto=".block-info" class="stroke" href="#">Home</a></li>
+                        <li><a data-goto=".info" href="#">About me</a></li>
+                        <li><a data-goto=".skills" href="#">Skills</a></li>
+                        <li><a data-goto=".portfolio" href="#">Portfolio</a></li>
+                        <li><a data-goto=".footer" href="#">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <div class="block-info">
+                    <h1>Denis <br/>Novik</h1>
+                    <p>UX | UI designer <br/>24 years old, Minsk</p>
+                    <a href="#" class="block_info_language">RU | ENG</a>
+
+                    <div class="burgerMenu-icon" onclick="burgerMenuClick()">
+                        <div class="burgerMenu-icon-lines">
+                            <div class="burgerMenu-icon-line"></div>
+                            <div class="burgerMenu-icon-line"></div>
+                            <div class="burgerMenu-icon-line"></div>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="block_img">
+                    <img src="img/man.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="info">
+                    <h2 class="title">About me</h2>
+                    <p>Hi, I'm Denis – UX/UI designer from Minsk. <br/>I'm interested in design and everything connected with it. <br/><br/><br/> I'm studying at courses "Web and mobile design interfaces" in IT-Academy. <br/><br/><br/>Ready to implement excellent projects <br/>with wonderful people.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="wrapper">
+            <div class="skills">
+                <h2 class="title">Skills</h2> 
+                <p>I work in such programs as</p>
+                
+                <div class="skills_programms">
+                    <div class="skills_programms_item">
+                        <div class="skills_programms_img">
+                            <img src="img/icons/photoshop.svg" alt="">
+                        </div>
+                        <h3>Adobe<br/>Photoshop</h3>
+
+                        <div class="skills_programms_stars">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/star.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="skills_programms_item">
+                        <div class="skills_programms_img">
+                            <img src="img/icons/illustrator.svg" alt="">
+                        </div>
+                        <h3>Adobe<br/>Illustrator</h3>
+
+                        <div class="skills_programms_stars">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/star.svg" alt="">
+                            <img src="img/icons/star.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="skills_programms_item">
+                        <div class="skills_programms_img">
+                            <img src="img/icons/aftereffects.svg" alt="">
+                        </div>
+                        <h3>Adobe <br/>After Effects</h3>
+                        
+                        <div class="skills_programms_stars">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/star.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="skills_programms_item">
+                        <div class="skills_programms_img">
+                            <img src="img/icons/figma.svg" alt="">
+                        </div>
+                        <h3 class="figma">Figma</h3>
+
+                        <div class="skills_programms_stars">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/blackstar.svg" alt="">
+                            <img src="img/icons/star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="wrapper">
+                <div class="portfolio">
+                    <h2 class="title">Portfolio</h2>
+
+                    <div class="portfolio_block">
+                        <div class="portfolio_img">
+                            <img src="img/women.jpg" alt="">
+                        </div>
+
+                        <a href="#" class="portfolio_link">Online fashion store - Homepage</a>
+                    </div>
+
+                    <div class="portfolio_block">
+                        <div class="portfolio_img">
+                            <img src="img/reebok.jpg" alt="">
+                        </div>
+
+                        <a href="#" class="portfolio_link">Reebok Store - Concept</a>
+                    </div>
+
+                    <div class="portfolio_block">
+                        <div class="portfolio_img">
+                            <img src="img/braun.jpg" alt="">
+                        </div>
+
+                        <a href="#" class="portfolio_link">Braun Landing Page - Concept</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer">
+                <h2 class="title">Contacts</h2>
+                <p class="footer_welcome">Want to know more or just chat? <br/>You are welcome!</p>
+                <button>Send message</button>
+
+                <div class="footer_icons">
+                    <a href="#"><img src="img/icons/in.svg" alt=""></a>
+                    <a href="#"><img src="img/icons/inst.svg" alt=""></a>
+                    <a href="#"><img src="img/icons/be.svg" alt=""></a>
+                    <a href="#"><img src="img/icons/ball.svg" alt=""></a>
+                </div>
+
+                <p class="footer_p_link">Like me on<br/>LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
